@@ -14,6 +14,10 @@ body {
   border:  5px solid var(--border-color2);
   padding: 1,5%;
 }
+#map-container {
+    position: relative;
+    display: inline-block;
+}
 #map-image {
     width: 90vw;
     margin: 0 auto;
@@ -26,5 +30,13 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+.pin {
+    position: absolute;
+    width: 7%;
+    height: auto;
+    transform: translate(-50%,-100%);
+    cursor: pointer;
+    background: transparent;
 }
  
