@@ -1,7 +1,30 @@
+:root {
+    --border-color1: rgb(240, 196, 160);
+    --border-color2:  rgb(239, 183, 138);
+}
 body {
-  background-color: antiquewhite;
+  background-color: #fff4dc;
+  color: #6e4d05;
+  margin: 5%;
 }
 .box {
-  background-color: rgb(223, 157, 102);
-  border-radius: 10%;
+  background-color: var(--border-color1);
+  border-radius: 4%;
+  text-align: center;
+  border:  5px solid var(--border-color2);
+  padding: 1,5%;
 }
+#map-image {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 1,5%;
+    background-color: var(--border-color1);
+    border: 5px solid var(--border-color2);
+    box-sizing: border-box;
+}
+#map-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+ 
