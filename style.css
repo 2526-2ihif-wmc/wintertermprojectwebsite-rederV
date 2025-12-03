@@ -1,42 +1,37 @@
 :root {
-    --border-color1: rgb(240, 196, 160);
-    --border-color2:  rgb(239, 183, 138);
+    --dark-grey-color: rgb(37, 37, 37);
 }
-body {
-  background-color: #fff4dc;
-  color: #6e4d05;
-  margin: 5%;
+@font-face {
+    font-family: font-basic;
+    src: url(font/Montserrat-Italic-VariableFont_wght.ttf);
 }
-.box {
-  background-color: var(--border-color1);
-  border-radius: 4%;
-  text-align: center;
-  border:  5px solid var(--border-color2);
-  padding: 1,5%;
+@font-face {
+    font-family: font-headers;
+    src: url(font/Arizonia-Regular.ttf);
 }
-#map-container {
-    position: relative;
-    display: inline-block;
+.navbar {
+    background-color: var(--dark-grey-color);
+    padding: 1%;
+    display: flex;
+    gap: 2%;
+    font-family: font-headers;
+    align-items: center;
+    font-size: 1.8rem;
 }
-#map-image {
-    width: 90vw;
-    margin: 0 auto;
-    padding: 1,5%;
-    background-color: var(--border-color1);
-    border: 5px solid var(--border-color2);
-    box-sizing: border-box;
+.nav-button{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
 }
-#map-image img {
-    width: 100%;
-    height: auto;
-    display: block;
+.navbutton:hover {
+    border: 2px solid white;
 }
-.pin {
-    position: absolute;
-    width: 7%;
-    height: auto;
-    transform: translate(-50%,-100%);
-    cursor: pointer;
-    background: transparent;
+.navbar > :first-child {
+    background-color: var(--dark-grey-color);
+    color: white;
+    text-align: center;
+    padding: auto;
+
 }
- 

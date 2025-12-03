@@ -1,0 +1,55 @@
+:root {
+    --border-color1: rgb(187, 34, 34);
+    --border-color2:  rgb(9, 4, 71);
+}
+@font-face {
+    font-family: font;
+    src: url(font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body {
+  background-color: #d4e2f6;
+  color: #0d002d;
+  margin: 5%;
+  font-family: font;
+}
+.box {
+  background-color: white;
+  font-family: 'Parisienne', cursive; /*Caveat, "Shadows Into Light" ,Unna,*/
+  font-size: 3em;
+  border-radius: 4%;
+  text-align: center;
+  border:  5px solid var(--border-color1);
+  padding: 1,5%;
+}
+#map-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+#map-image {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 1,5%;
+    background-color: var(--border-color2);
+    border: 5px solid var(--border-color1);
+    box-sizing: border-box;
+    display: inline-block;
+}
+#map-image img {
+    width: 95%;
+    height: auto;
+    display: block;
+}
+.pin {
+    position: absolute;
+    width: 7%;
+    height: auto;
+    transform: translate(-50%,-100%);
+    cursor: pointer;
+    background: transparent;
+}
+p {
+    font-size: 20px;
+}
+
+ 
