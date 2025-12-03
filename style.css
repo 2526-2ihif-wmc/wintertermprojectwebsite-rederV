@@ -17,6 +17,9 @@
     font-family: font-headers;
     align-items: center;
     font-size: 1.8rem;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
 }
 .nav-button{
     padding: 1%;
@@ -24,8 +27,9 @@
     color: white;
     text-decoration: none;
     border-radius: 10%;
+    border: 2px solid black;
 }
-.navbutton:hover {
+.nav-button:hover {
     border: 2px solid white;
 }
 .navbar > :first-child {
