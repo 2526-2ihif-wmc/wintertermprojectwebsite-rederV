@@ -62,3 +62,24 @@
     height: auto;
     z-index: 2;
 }
+.landscape-text {
+    font-family: font-headers;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    z-index: 3;
+}
+.text-after-pic {
+    margin-top: 17%;
+    font-family: font-basic;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
