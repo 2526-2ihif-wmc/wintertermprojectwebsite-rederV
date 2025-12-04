@@ -9,8 +9,14 @@
     font-family: font-headers;
     src: url(font/Arizonia-Regular.ttf);
 }
+.body {
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     background-color: var(--dark-grey-color);
+    top: 0;
+    left: 0;
     padding: 1%;
     display: flex;
     gap: 2%;
@@ -74,7 +80,7 @@
     font-size: 5rem;
     z-index: 3;
 }
-.text-after-pic {
+.text-after {
     margin-top: 17%;
     font-family: font-basic;
     text-align: center;
