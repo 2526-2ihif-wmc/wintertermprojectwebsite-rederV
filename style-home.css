@@ -99,3 +99,14 @@
     text-align: center;
     font-size: 3.5rem;
 }
+#dest-section {
+    font-family: font-basic;
+}
+#dst-section section {
+    
+    font-family: font-basic;
+    margin:10%;
+}
+#dst-section section p {
+    font-size: 1.5rem;
+}
