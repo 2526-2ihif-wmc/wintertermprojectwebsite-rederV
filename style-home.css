@@ -110,3 +110,28 @@
 #dst-section section p {
     font-size: 1.5rem;
 }
+.calender {
+    font-family:font-basic;
+    margin: 4%;
+    width: 92%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.calender th {
+    border: 2px solid var(--dark-grey-color);
+    padding: 1%;
+    text-align: center;
+    overflow: hidden;
+    width: calc(90%/12);
+    font-size: 0.85rem;
+    font-family: font-basic;
+    color: white;
+    background-color: var(--dark-grey-color);
+}
+.calender td {
+    padding: 0.5%;
+    border: 2px solid black;
+    font-size: 0.5rem;
+    font-family: font-basic;
+    font-weight:bold;
+}
