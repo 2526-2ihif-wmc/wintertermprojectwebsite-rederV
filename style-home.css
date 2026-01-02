@@ -166,7 +166,11 @@
     scroll-snap-align: start;
     text-align: center;
     background-color: #efefef;
-    height: 8%;
+    height: 6%;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 .item img {
     width: 100%;
@@ -189,7 +193,14 @@
     font-family: font-headers;
     font-size: 3rem;
     margin-left: 10%;
+    margin-bottom: 0;
 }
 p {
     font-family: font-basic;
+}
+.simple-header {
+    font-family: font-headers;
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
 }
