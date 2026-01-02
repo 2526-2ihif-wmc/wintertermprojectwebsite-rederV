@@ -151,5 +151,35 @@
     background-color: darkgoldenrod;
 }
 .slideshow-container {
-    
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x-mandatory;
+    gap: 2%;
+    padding: 2%;
+    margin: 5%;
+    width: 90%;
+}
+.item {
+    flex: 0 0 20%;
+    border-radius: 2%;
+    padding: 2%;
+    scroll-snap-align: start;
+    text-align: center;
+    background-color: #efefef;
+}
+.item img {
+    width: 100%;
+    border-radius: 2%;
+    display: block;
+    margin-bottom: 5%;
+}
+.slideshow-container::-webkit-scrollbar {
+    height: 5%;
+}
+.slideshow-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2%;
+}
+.slideshow-container::-webkit-scrollbar-track {
+    background: #eee;   
 }
