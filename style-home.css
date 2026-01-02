@@ -139,11 +139,17 @@
     background-color: rgb(255, 0, 0);
 }
 .holi {
-    background-color: rgb(221, 135, 6);
+    background-color: rgb(221, 6, 124);
 }
 .songkran {
-    background-color: rgb(231, 255, 15);
+    background-color: rgb(255, 231, 15);
 }
 .diwali {
     background-color: brown;
+}
+.latern {
+    background-color: darkgoldenrod;
+}
+.slideshow-container {
+    
 }
