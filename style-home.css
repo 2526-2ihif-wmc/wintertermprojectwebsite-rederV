@@ -47,9 +47,8 @@
 .landscape-container {
     position: relative;
     display: inline-block;
-    top: 2rem;
-    width: 80%;
-    margin-left: 10%;
+    top: 7rem;
+    width: 100%;
     height:auto;
 }
 .black-box {
@@ -82,7 +81,7 @@
     z-index: 3;
 }
 .text-after {
-    margin-top: 10%;
+    margin-top: 12%;
     font-family: font-basic;
     text-align: center;
     font-size: 1.2rem;
@@ -135,21 +134,6 @@
     font-size: 0.5rem;
     font-family: font-basic;
     font-weight:bold;
-}
-.chinese-spring-festival {
-    background-color: rgb(255, 0, 0);
-}
-.holi {
-    background-color: rgb(221, 6, 124);
-}
-.songkran {
-    background-color: rgb(255, 231, 15);
-}
-.diwali {
-    background-color: brown;
-}
-.latern {
-    background-color: darkgoldenrod;
 }
 .slideshow-container {
     display: flex;
