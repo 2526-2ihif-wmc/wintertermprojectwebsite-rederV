@@ -193,6 +193,7 @@ p {
     max-width: 85%;
     margin: 3% 12% 5%;
     line-height: 1.5;
+    font-size: 1.2rem;
 }
 .table-tips {
     text-align: center;
