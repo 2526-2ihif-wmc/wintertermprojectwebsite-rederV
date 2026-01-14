@@ -315,4 +315,17 @@ a {
 .upcoming-fest > div > div{
     background-color: #dadada;
     padding: 2%;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+.more > a{
+    background-color: #dadada;
+    padding: 0.5%;
+    height: 1.7rem;
+    font-family: font-basic;
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+.more:hover {
+    border: 2px solid black;
 }
