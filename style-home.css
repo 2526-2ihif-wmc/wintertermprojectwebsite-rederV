@@ -355,8 +355,9 @@ a {
 #esala-perahera,
 #diwali,
 #cheung-chau-bun-festival,
-#illumination-festivals {
-  scroll-margin-top: 50vh;
+#illumination-festivals ,
+#dest-display {
+  scroll-margin-top: 60vh;
 }
 .upcoming-fest > div > div {
   background-color: #dadada;
