@@ -312,3 +312,7 @@ a {
 #illumination-festivals {
   scroll-margin-top: 50vh;
 }
+.upcoming-fest > div > div{
+    background-color: #dadada;
+    padding: 2%;
+}
