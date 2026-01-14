@@ -309,6 +309,16 @@ a {
 }
 .places .flip-box {
   width: 33.3%;
+  height: 15.5rem;
+  max-height: 15.5rem;
+}
+.places .flip-box-front .landscape-container {
+    min-height: 15.5rem;
+    max-height: 15.5rem;
+}
+.places .flip-box-front .landscape-container .landscape-image {
+    min-height: 15.5rem;
+    max-height: 15.5rem;
 }
 .featured-festivals > div > img {
   width: 33%;
