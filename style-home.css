@@ -274,7 +274,7 @@ a {
 .jap-places .landscape-container {
     width: 33.3%;
 }
-.featured-festivals div img {
+.featured-festivals > div > img {
     width: 33%;
     height: auto;
 }
@@ -282,16 +282,33 @@ a {
     width: 90%;
     margin: 5%;
 }
-.featured-festivals div div h4 {
+.featured-festivals > div > div > h4 {
     font-family: font-basic;
-    font-size: 4 rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
-.featured-festivals div {
+.featured-festivals > div {
     display: flex;
     gap: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.featured-festivals div div {
+.featured-festivals > div > div {
     width: 65%;
+}
+.featured-festivals > div > div > p:nth-child(3) {
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+#holi, 
+#chinese-new-year,
+#latern-festival,
+#songkran,
+#hanabi-taikai,
+#eagle-hunting-festival,
+#esala-perahera,
+#diwali,
+#cheung-chau-bun-festival,
+#illumination-festivals {
+  scroll-margin-top: 50%;
 }
