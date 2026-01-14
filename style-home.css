@@ -274,3 +274,24 @@ a {
 .jap-places .landscape-container {
     width: 33.3%;
 }
+.featured-festivals div img {
+    width: 33%;
+    height: auto;
+}
+.featured-festivals {
+    width: 90%;
+    margin: 5%;
+}
+.featured-festivals div div h4 {
+    font-family: font-basic;
+    font-size: 4 rem;
+}
+.featured-festivals div {
+    display: flex;
+    gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.featured-festivals div div {
+    width: 65%;
+}
